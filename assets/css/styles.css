@@ -332,5 +332,8 @@ table.pricing td.price-col { font-family: var(--font-display); font-weight: 600;
 
 /* ---------- Social video embed (TikTok/Facebook) ---------- */
 .video-embed { display: flex; justify-content: center; margin-block: var(--sp-2) var(--sp-5); }
-.video-embed .tiktok-embed { margin: 0 auto !important; border-radius: var(--r-card); overflow: hidden; }
-.video-embed iframe { max-width: 100%; }
+.video-embed .promo-video {
+  width: 100%; max-width: 360px; aspect-ratio: 9 / 16; height: auto;
+  display: block; margin: 0 auto; border-radius: var(--r-card);
+  border: 1px solid var(--line); background: #000; box-shadow: var(--shadow);
+}
