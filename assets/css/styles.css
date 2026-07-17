@@ -329,3 +329,8 @@ table.pricing td.price-col { font-family: var(--font-display); font-weight: 600;
 .ixtx-sink { display: none; }
 .dob-grid { display: grid; grid-template-columns: 1.5fr 1fr 1.1fr; gap: 10px; margin-top: 6px; }
 @media (max-width: 400px){ .dob-grid { grid-template-columns: 1fr; } }
+
+/* ---------- Social video embed (TikTok/Facebook) ---------- */
+.video-embed { display: flex; justify-content: center; margin-block: var(--sp-2) var(--sp-5); }
+.video-embed .tiktok-embed { margin: 0 auto !important; border-radius: var(--r-card); overflow: hidden; }
+.video-embed iframe { max-width: 100%; }
