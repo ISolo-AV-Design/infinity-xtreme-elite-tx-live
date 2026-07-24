@@ -330,6 +330,14 @@ table.pricing td.price-col { font-family: var(--font-display); font-weight: 600;
 .dob-grid { display: grid; grid-template-columns: 1.5fr 1fr 1.1fr; gap: 10px; margin-top: 6px; }
 @media (max-width: 400px){ .dob-grid { grid-template-columns: 1fr; } }
 
+/* ---------- Jackrabbit live class listings ---------- */
+.jr-actions { display: flex; flex-wrap: wrap; gap: var(--sp-3); margin-bottom: var(--sp-5); }
+.btn--sm { padding: 9px 16px; font-size: .82rem; }
+table.pricing td .btn--sm { white-space: nowrap; }
+.jr-cat { display: block; font-family: var(--font-display); text-transform: uppercase; letter-spacing: .1em; font-size: .68rem; color: var(--silver-dim); margin-top: 3px; }
+.jr-open { font-family: var(--font-display); font-weight: 600; color: var(--legacy); white-space: nowrap; }
+.jr-wait { font-family: var(--font-display); color: var(--silver-dim); white-space: nowrap; }
+
 /* ---------- Social video embed (TikTok/Facebook) ---------- */
 .video-embed { display: flex; justify-content: center; margin-block: var(--sp-2) var(--sp-5); }
 .video-embed .promo-video {

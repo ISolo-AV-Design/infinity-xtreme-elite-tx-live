@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="assets/css/styles.css?v=20260719" />
+  <link rel="stylesheet" href="assets/css/styles.css?v=20260723" />
   <link rel="icon" href="assets/logos/gym-main-logo.png" />
 </head>
 <body data-page="schedule">
@@ -28,7 +28,7 @@
         <a href="parties.html" data-nav="parties">Parties</a>
         <a href="gallery.html" data-nav="gallery">Gallery</a>
         <a href="contact.html" data-nav="contact">Contact</a>
-        <span class="nav-cta"><a class="btn btn--primary" href="schedule.html">Enroll</a></span>
+        <span class="nav-cta"><a class="btn btn--primary" href="https://app.jackrabbitclass.com/regv2.asp?id=558575" target="_blank" rel="noopener">Enroll</a></span>
       </nav>
     </div>
   </header>
@@ -36,7 +36,7 @@
   <main>
     <section class="page-banner starfield">
       <div class="container">
-        <span class="eyebrow">Registration Opens July 2026</span>
+        <span class="eyebrow">Now Enrolling for August 2026</span>
         <h1 class="chrome-text">Schedule &amp; Enroll</h1>
         <p>Browse open classes and register online. Our schedule and registration are powered by Jackrabbit Class.</p>
       </div>
@@ -48,24 +48,25 @@
         <div class="section-head center"><span class="eyebrow">Three Simple Steps</span><h2>How to enroll</h2></div>
         <div class="grid grid-3">
           <article class="card"><div class="price" style="margin-top:0;">01</div><h3>Choose a program</h3><p>Browse our <a href="programs.html">programs</a> and teams to find the right fit for your athlete.</p></article>
-          <article class="card"><div class="price" style="margin-top:0;">02</div><h3>Find an open class</h3><p>Check the live class list below for days, times, and openings once registration is live.</p></article>
+          <article class="card"><div class="price" style="margin-top:0;">02</div><h3>Find an open class</h3><p>Check the live class list below for days, times, and current openings — updated in real time.</p></article>
           <article class="card"><div class="price" style="margin-top:0;">03</div><h3>Register online</h3><p>Complete enrollment, waivers, and billing securely through our Jackrabbit portal.</p></article>
         </div>
       </div>
     </section>
 
-    <!-- LIVE CLASS LISTINGS (Jackrabbit, stubbed) -->
+    <!-- LIVE CLASS LISTINGS (Jackrabbit, live — see assets/js/jackrabbit.js, Org ID 558575) -->
     <section class="section starfield">
       <div class="container">
-        <div class="section-head"><span class="eyebrow">Open Classes</span><h2>Live class schedule</h2><p class="muted">Real-time openings and online registration, styled to match our site.</p></div>
+        <div class="section-head"><span class="eyebrow">Open Classes</span><h2>Live class schedule</h2><p class="muted">Real-time openings and secure online registration, powered by Jackrabbit Class.</p></div>
 
-        <!-- Jackrabbit renders here. See assets/js/jackrabbit.js.
-             STUBBED until the gym's Jackrabbit Organization ID is provided. -->
+        <div class="jr-actions">
+          <a class="btn btn--primary" href="https://app.jackrabbitclass.com/regv2.asp?id=558575" target="_blank" rel="noopener">Register Online</a>
+          <a class="btn btn--secondary" href="https://app.jackrabbitclass.com/portal/ppLogin.asp?id=558575" target="_blank" rel="noopener">Parent Portal Login</a>
+        </div>
+
+        <!-- Jackrabbit live class table renders here. -->
         <div id="jackrabbit-classes" aria-live="polite">
-          <div class="notice">
-            <strong>Live class schedule &amp; online registration are coming soon.</strong>
-            <p class="muted mt-2">Enrollment opens July 2026. Live listings will appear here once registration goes live.</p>
-          </div>
+          <p class="muted">Loading class schedule…</p>
         </div>
       </div>
     </section>
@@ -152,7 +153,7 @@
         <p class="tagline">Building champions on the mat, leaders in life, and family through cheer. &#8734;</p>
       </div>
       <div class="footer-col"><h4>Explore</h4><a href="about.html">About</a><a href="programs.html">Programs</a><a href="teams.html">Teams</a><a href="gallery.html">Gallery</a></div>
-      <div class="footer-col"><h4>Get Started</h4><a href="schedule.html">Schedule &amp; Enroll</a><a href="parties.html">Birthday Parties</a><a href="contact.html">Contact</a><a href="tel:+19727574182">972-757-4182</a></div>
+      <div class="footer-col"><h4>Get Started</h4><a href="schedule.html">Schedule &amp; Enroll</a><a href="https://app.jackrabbitclass.com/portal/ppLogin.asp?id=558575" target="_blank" rel="noopener">Parent Portal Login</a><a href="parties.html">Birthday Parties</a><a href="contact.html">Contact</a><a href="tel:+19727574182">972-757-4182</a></div>
     </div>
     <div class="container footer-bottom">
       <p>&copy; <span id="year">2026</span> Infinity Xtreme Elite TX. All rights reserved.</p>
@@ -161,7 +162,7 @@
   </footer>
 
   <script src="assets/js/main.js?v=20260719"></script>
-  <script src="assets/js/jackrabbit.js?v=20260719"></script>
+  <script src="assets/js/jackrabbit.js?v=20260723"></script>
   <script src="assets/js/interest-form.js?v=20260719"></script>
 </body>
 </html>
