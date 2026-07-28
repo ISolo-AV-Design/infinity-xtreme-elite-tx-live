@@ -17,7 +17,7 @@
   var ORG_ID  = "558575";
   var FEED     = "https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJSON?OrgID=" + ORG_ID;
   var REG_URL  = "https://app.jackrabbitclass.com/regv2.asp?id=" + ORG_ID;
-  var PHONE    = "972-757-4182";
+  var PHONE    = "214-454-8768";
 
   var mount = document.getElementById("jackrabbit-classes");
   if (!mount) return;
@@ -143,7 +143,7 @@
   function emptyNotice() {
     return '<div class="notice"><strong>No classes are open for registration right now.</strong>' +
       '<p class="muted mt-2">New classes are added often — check back soon, or call ' +
-      '<a href="tel:+19727574182">' + PHONE + '</a> and we\'ll help you find a spot.</p>' +
+      '<a href="tel:+12144548768">' + PHONE + '</a> and we\'ll help you find a spot.</p>' +
       '<div class="btn-row mt-4"><a class="btn btn--primary" href="' + REG_URL +
       '" target="_blank" rel="noopener">Open Registration</a></div></div>';
   }
@@ -153,7 +153,7 @@
       '<p class="muted mt-2">You can still register online or reach us directly.</p>' +
       '<div class="btn-row mt-4">' +
       '<a class="btn btn--primary" href="' + REG_URL + '" target="_blank" rel="noopener">Register Online</a>' +
-      '<a class="btn btn--secondary" href="tel:+19727574182">Call ' + PHONE + '</a></div></div>';
+      '<a class="btn btn--secondary" href="tel:+12144548768">Call ' + PHONE + '</a></div></div>';
   }
 
   /* ---------- helpers ---------- */
